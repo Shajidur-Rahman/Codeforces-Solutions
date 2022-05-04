@@ -1,3 +1,5 @@
+# codeforces.com's problems' solution
+# problem no 158A
 # count, target = input().split()
 
 # a = input().split()

@@ -1,3 +1,5 @@
+# codeforces.com's problems' solution
+# problem no 791A
 num_array = input().split()
  
 num1 = int(num_array[0])

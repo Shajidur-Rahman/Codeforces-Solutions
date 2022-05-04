@@ -1,5 +1,5 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+# codeforces.com's problems' solution
+# problem no Watermelon problem 
 
 k = int(input())
 if k % 2 == 0 and k > 2:

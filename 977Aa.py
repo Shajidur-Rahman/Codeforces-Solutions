@@ -1,3 +1,5 @@
+# codeforces.com's problems' solution
+# problem no 977A
 a,b = input().split()
 a = int(a)
 b = int(b)

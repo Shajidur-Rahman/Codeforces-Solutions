@@ -1,3 +1,5 @@
+# codeforces.com's problems' solution
+# problem no 734A
 a = int(input())
 b = input()
 

@@ -1,3 +1,5 @@
+# codeforces.com's problems' solution
+# problem no 282A
 time = int(input())
 
 final = 0

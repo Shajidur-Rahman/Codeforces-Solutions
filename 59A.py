@@ -1,3 +1,5 @@
+# codeforces.com's problems' solution
+# problem no 59A
 message = input()
 
 final1 = sum(1 for c in message if c.isupper())

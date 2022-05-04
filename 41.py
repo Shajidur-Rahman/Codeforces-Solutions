@@ -1,3 +1,6 @@
+# codeforces.com's problems' solution
+# problem no 41A
+
 a = input()
 b = input()
 

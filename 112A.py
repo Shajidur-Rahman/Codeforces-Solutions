@@ -1,3 +1,5 @@
+# codeforces.com's problems' solution
+# problem no 112A
 a = input()
 b = input()
 

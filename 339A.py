@@ -1,3 +1,5 @@
+# codeforces.com's problems' solution
+# problem no 339A
 a = input().split("+")
 a.sort()
 for i in range(len(a)):

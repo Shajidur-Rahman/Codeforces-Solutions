@@ -1,3 +1,5 @@
+# codeforces.com's problems' solution
+# problem no 266A
 def colored_stones(num, colors):
     count = 0
     for i in range(0, len(colors) - 1):

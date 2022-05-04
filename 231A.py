@@ -1,3 +1,5 @@
+# codeforces.com's problems' solution
+# problem no 231A
     
 time = int(input())
 
