@@ -1,6 +1,2 @@
-from time import process_time_ns
-
-
-a = 51.0
-print(round(a))
-print(a)
+a = [2,3,45,56,64,3]
+print(set(a))
