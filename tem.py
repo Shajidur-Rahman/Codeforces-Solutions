@@ -1,2 +1,2 @@
-a = [2,3,45,56,64,3]
-print(set(a))
+for i in range(4):
+    print(i)

@@ -1,3 +1,8 @@
+#
+# Wrong!  
+# Code go to 977Aa.py => it is the corect answer
+#
+
 import math
 a,b = input().split()
 b = int(b)
@@ -14,4 +19,10 @@ for i in range(0,len(a)+1):
         a = y+x
     # print(a)
     
-print(a)
+# print(a)
+
+
+#
+# Wrong!  
+# Code go to 977Aa.py => it is the corect answer
+#
