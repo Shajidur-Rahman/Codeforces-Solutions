@@ -1,4 +1,6 @@
-# codeforces.com's problems' solution
+from itertools import count
 
-for i in range(4):
-    print(i)
+
+a = 34
+
+print(count(a))
