@@ -1,6 +1,2 @@
-from itertools import count
-
-
-a = 34
-
-print(count(a))
+for i in range(1,4,2):
+    print(i)
