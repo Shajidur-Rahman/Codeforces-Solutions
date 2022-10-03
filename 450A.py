@@ -1,13 +1,11 @@
 a,b = list(map(int, input().split()))
 x = list(map(int, input().split()))
 
-li = []
+_max = max(x)
 
-for i in range(a):
-	if x[i] > b:
-		li.append(x[i])
+c = len(x) - x[::-1].index(max(x)) - 1
 
-if len(li) == 0:
-	print(a-sorted(x,reverse=True).index(x[0]))
+if _max > b:
+	print(c)
 else:
-	print(a-sorted(x,reverse=True).index(li[-1]))
+	print(x.index(x[-1])+1)
