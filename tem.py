@@ -1,14 +1,57 @@
-a,b,c = list(map(int, input().split()))
+t = int(input())
 
-if a >= (b+c):
-    print("NAO FORMA TRIANGULO")
-if a**2 == (b**2+c**2):
-    print("TRIANGULO RETANGULO")
-if a**2>(b**2+c**2):
-    print("TRIANGULO OBTUSANGULO")
-if a**2<(b**2+c**2):
-    print("TRIANGULO ACUTANGULO")
-if a==b==c:
-    print("TRIANGULO EQUILATERO")
-if (a==b and c!=a) or (a==c and b!=a) or (c==b and a!=c):
-    print("TRIANGULO ISOSCELES") 
+for i in range(t):
+
+
+    a,b = list(input().split())
+
+
+
+    a2 = list(set(a))
+    b2 = list(set(b))
+
+
+    a1 = "".join(a2)
+    b1 = "".join(b2)
+
+    if a1=="XS" and b=="M":
+        print("<")
+    elif a1 == "XS" and b=="XL":
+        print("<")
+
+    elif a1 == "XS" and b=="S":
+        print("<")
+
+    elif a1 == "M" and b=="L":
+        print("<")
+
+    elif a1 == "M" and b=="XL":
+        print("<")
+
+    elif a1 == "S" and b=="L":
+        print("<")
+
+    elif a1 == "S" and b=="XL":
+        print("<")
+
+    elif a1 == "S" and b=="M":
+        print("<")
+
+    elif a1 == "L" and b=="XL":
+        print("<")
+
+    elif a1==b1:
+
+        if len(a)>len(b):
+            if a1=="XS":
+                print("<")
+            else:
+
+                print(">")
+        elif len(a) == len(b):
+            print("=")
+        else:
+            print("<")
+
+    else:
+        print(">")
